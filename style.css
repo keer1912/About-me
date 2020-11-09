@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+body{
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+header{
+    font-size: 10px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: left;
+    letter-spacing: 4px;
+}
+.banner{
+    background: rgb(229,229,255);
+    background: linear-gradient(114deg, rgba(229,229,255,1) 0%, rgba(166,206,223,1) 100%);
+    height:auto;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+}
+.split{
+	display:flex;
+	flex: 1;
+	flex-direction:column;
+	padding: 25px;
+}
+.banner span{
+    color: #0000ff;
+}
+.intro{
+	z-index: 2;
+}
+.banner h1{
+    font-size: 36px;
+    word-spacing: 5px; 
+    
+}
+.banner p{
+    font-style: italic;
+}
+.banner h2{
+    word-spacing: 5px;    
+}
+.profpic1{
+    background-color: #fff;
+    height: 480px;
+    width: 480px;
+	border-radius: 50%;
+	z-index:1;
+	float: right;
+}
+.profpic1 img{
+	width:auto;
+}
+.contact h3{
+	display: block;
+    font-size: 30px;
+	margin:auto;
+	text-align: center;
+
+}
+.contact{
+	background-color: rgb(223, 242, 248);
+	margin:50px;
+    height:580px;
+	color: black;
+	position:relative;
+}
+form{
+	padding: 5px;
+}
+
+.name-field , .message-field{
+	padding-top:30px ;
+}
+.mobile-no , .email-field, .reach-method{
+	padding-top:20px ;
+}
+.textbox{
+	padding: 8px;
+}
+textarea{
+resize: none;
+}
+.submit{
+	display: block;
+	width: 100px;
+	padding: 5px;
+	font-size: 18px;
+	background-color:rgb(214, 223, 241);
+	border-color: black;
+	margin: auto; 
+}
+
+@media only screen and (min-width:300px) and (max-width:800px)  {
+	.split{
+		align-items: center;
+		justify-content: center;
+	}
+	.intro{
+		text-align: center;
+	}
+}
